@@ -19,7 +19,7 @@ int main(int argc, const char** argv)
         "{@filename|vtest.avi|}"
     );
 
-    String filename = parser.get<string>("@filename");
+    std::string filename = parser.get<std::string>("@filename");
     double scale = parser.get<double>("scale");
     int test_counter = parser.get<int>("counter");
     bool show = parser.get<bool>("show");

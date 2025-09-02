@@ -1,0 +1,25 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Output images from tests
+*.png
+*.jpg
+!billiard.jpg
+!planet_glow.jpg
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+core

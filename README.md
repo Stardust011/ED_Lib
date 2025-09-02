@@ -65,7 +65,7 @@ In this way, redundant computation can be avoided.
 Results might slightly differ between using directly EDLines and ED + EDX (EDLines, EDCircles, etc.) because of the differences in default gradient operators and parameters in the algorithms.
 There are several usage scenarios available in test.cpp. 
 
-Dependencies: OpenCV 3.4
+Dependencies: OpenCV 4.8+ (upgraded from 3.4)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
